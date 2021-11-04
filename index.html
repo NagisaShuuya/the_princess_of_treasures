@@ -38,9 +38,9 @@
     <!-- main section -->
     <main>
         <h1>"Masterpieces created by nature, harnessed by humans"</h1>
-        <section>
+        <section id="features">
             <!-- table of materias -->
-            <table>
+            <table class="tableContainer">
                 <tbody>
                     <tr>
                         <th>Type</th>
@@ -82,20 +82,20 @@
             </table>
         </section>
         <!-- video -->
-        <section>
+        <section id="how-it-works">
             <!-- <video src="https://www.youtube.com/watch?v=a1lQ6kQ93fI" controls preload="auto" id="video"></video> on web -->
             <video src="./video/demonstration.mp4" controls preload="auto" id="video"></video>
             <p>Cloud using the materia "Ultima"</p>
         </section>
         <!-- prices -->
-        <section>
+        <section id="pricing">
             <div>
                 <div>Cloud the Rookie</div>
                 <h2>2000G</h2>
                 <ol>
                     <li>One Fire materia</li>
                     <li>One Slash materia</li>
-                    <li>Choco/Mog summon materia</li>
+                    <li>One Choco/Mog summon materia</li>
                 </ol>
                 <button type="button">I want this!</button>
             </div>
@@ -104,25 +104,66 @@
                 <h2>3000G</h2>
                 <ol>
                     <li>One Fire and Ice materia</li>
-                    <li>One Slash materia</li>
-                    <li>Choco/Mog summon materia</li>
+                    <li>One Double Cut materia</li>
+                    <li>One Ifrit and Shiva summon materia</li>
                 </ol>
                 <button type="button">I want this!</button>
             </div>
             <div>
-                <div>Cloud the Rookie</div>
-                <h2>2000G</h2>
+                <div>1st. Class Soldier Sephiroth</div>
+                <h2>10000G</h2>
                 <ol>
-                    <li>One Fire materia</li>
-                    <li>One Slash materia</li>
-                    <li>Choco/Mog summon materia</li>
+                    <li>One Ultima Materia</li>
+                    <li>One All Materia</li>
+                    <li>One Enemy Skill Materia</li>
+                    <li>One Knights Of The Round summon Materia</li>
                 </ol>
                 <button type="button">I want this!</button>
             </div>
         </section>
+        <!-- shipping -->
+        <section id="shipping">
+        <div>
+            <div>
+                <!-- <img src="https://i.imgur.com/AVg7BVJ.png" alt="materia from final fantasy"> on web -->
+                <img src="./img/materials.png" alt="materia from final fantasy">
+            </div>
+            <div>
+                <h3>Premium Materials</h3>
+                <p>Carefully extracted from mako energy and carefully treated in Shirna's finest laboratories.</p>
+            </div>
+            <div>
+                <!-- <img src="https://i.imgur.com/C5ukP2R.png" alt="chocobo logo for shipping"> on web -->
+                <img src="./img/shipping.png" alt="chocobo logo for shipping">
+            </div>
+            <div>
+                <h3>Fast and Safe Shipping</h3>
+                <p>Sent by the fastest chocobos, ensuring your materia reaches its destination</p>
+            </div>
+            <div>
+                <!-- <img src="https://i.imgur.com/esVPxul.png" alt="materia from final fantasy"> on web -->
+                <img src="./img/warranty.png" alt="materia from final fantasy">
+            </div>
+            <div>
+                <h3>Quality Assurance</h3>
+                <p>In each shipment we make sure that they arrive in good condition without interruptions or theft.</p>
+            </div>
+        </div>
+        </section>
+
+        <!-- submit section -->
+        <p>Ready to order?</p>
+        <form action="https://www.freecodecamp.com/email-submit" id="form"></form>
+        <input type="email" id="email" placeholder="enter your email" required>
+        <input type="submit" id="submit" value="let's do it!">
     </main>
     
-    
+    <!-- footer section -->
+    <footer>
+        <span>The Princess of Treasures, Original Materias (no materia was stolen).</span>
+        <!-- <img src="https://i.imgur.com/vMwyEzV.png" alt="chocobo logo">on web -->
+        <img src="./img/copyright.png" alt="chocobo logo">
+    </footer>
 </body>
 </html>
 
