@@ -8,7 +8,7 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Zen+Kurenaido&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Zen+Kurenaido&display=swap" rel="stylesheet">  
     <title>The Princess of Treasures</title>
 </head>
 <body>
@@ -37,8 +37,8 @@
     </header>
     <!-- main section -->
     <main>
-        <h1>"Masterpieces created by nature, harnessed by humans"</h1>
-        <section id="features">
+        <h1 id="features">"Masterpieces created by nature, harnessed by humans"</h1>
+        <section >
             <!-- table of materias -->
             <table class="tableContainer">
                 <tbody>
@@ -48,7 +48,7 @@
                         <th>Description</th>
                         <th>Price</th>
                     </tr>
-                    <tr>
+                    <tr class="th1">
                         <th>Magic Materia</th>
                         <th>Fire/Ice/Thunder</th>
                         <th>cast magic according to its element.</th>
@@ -60,7 +60,7 @@
                         <th>allows the user to make two cuts in a row.</th>
                         <th>900G</th>
                     </tr>
-                    <tr>
+                    <tr class="th1">
                         <th>Support Materia</th>
                         <th>HP Absorb</th>
                         <th>absorbs HP from enemies.</th>
@@ -72,10 +72,10 @@
                         <th>chance of intercepting attacks on an ally. (depending on the level of the materia) </th>
                         <th>1500G</th>
                     </tr>
-                    <tr>
+                    <tr class="th1">
                         <th>Summon Materia</th>
                         <th>Choco/Mog</th>
-                        <th>Summons a Moguri riding a Chocobo that hits the enemy.</th>
+                        <th >Summons a Moguri riding a Chocobo that hits the enemy.</th>
                         <th>2000G</th>
                     </tr>
                 </tbody>
@@ -85,66 +85,70 @@
         <section id="how-it-works">
             <!-- <video src="https://www.youtube.com/watch?v=a1lQ6kQ93fI" controls preload="auto" id="video"></video> on web -->
             <video src="./video/demonstration.mp4" controls preload="auto" id="video"></video>
-            <p>Cloud using the materia "Ultima"</p>
         </section>
+        <span>Cloud using the materia "Ultima"</span>
         <!-- prices -->
         <section id="pricing">
-            <div>
-                <div>Cloud the Rookie</div>
-                <h2>2000G</h2>
+            <div class="rookie">
+                <div class="type">Cloud the Rookie</div>
+                <h2>$2000G</h2>
                 <ol>
-                    <li>One Fire materia</li>
-                    <li>One Slash materia</li>
-                    <li>One Choco/Mog summon materia</li>
+                    <li>One Fire materia.</li>
+                    <li>One Slash materia.</li>
+                    <li>One Choco/Mog summon materia.</li>
                 </ol>
                 <button type="button">I want this!</button>
             </div>
-            <div>
-                <div>Zack the puppy</div>
-                <h2>3000G</h2>
+            <div class="rookie">
+                <div class="type">Zack the puppy</div>
+                <h2>$3000G</h2>
                 <ol>
-                    <li>One Fire and Ice materia</li>
-                    <li>One Double Cut materia</li>
-                    <li>One Ifrit and Shiva summon materia</li>
+                    <li>One Fire and Ice materia.</li>
+                    <li>One Double Cut materia.</li>
+                    <li>One Ifrit and Shiva summon materia.</li>
                 </ol>
                 <button type="button">I want this!</button>
             </div>
-            <div>
-                <div>1st. Class Soldier Sephiroth</div>
-                <h2>10000G</h2>
+            <div class="rookie">
+                <div class="type">1st. Class <br> Soldier Sephiroth</div>
+                <h2>$10000G</h2>
                 <ol>
                     <li>One Ultima Materia</li>
-                    <li>One All Materia</li>
-                    <li>One Enemy Skill Materia</li>
-                    <li>One Knights Of The Round summon Materia</li>
+                    <li>One All Materia.</li>
+                    <li>One Enemy Skill Materia.</li>
+                    <li>One Knights Of The Round summon Materia.</li>
                 </ol>
                 <button type="button">I want this!</button>
             </div>
         </section>
         <!-- shipping -->
         <section id="shipping">
-        <div>
-            <div>
+        <div class="shipping">
+            <div class="imgContainer">
                 <!-- <img src="https://i.imgur.com/AVg7BVJ.png" alt="materia from final fantasy"> on web -->
                 <img src="./img/materials.png" alt="materia from final fantasy">
             </div>
-            <div>
+            <div class="textContainer">
                 <h3>Premium Materials</h3>
                 <p>Carefully extracted from mako energy and carefully treated in Shirna's finest laboratories.</p>
             </div>
-            <div>
+        </div>
+        <div class="shipping">
+            <div class="imgContainer">
                 <!-- <img src="https://i.imgur.com/C5ukP2R.png" alt="chocobo logo for shipping"> on web -->
                 <img src="./img/shipping.png" alt="chocobo logo for shipping">
             </div>
-            <div>
+            <div class="textContainer">
                 <h3>Fast and Safe Shipping</h3>
                 <p>Sent by the fastest chocobos, ensuring your materia reaches its destination</p>
             </div>
-            <div>
+        </div>
+        <div class="shipping">
+            <div class="imgContainer">
                 <!-- <img src="https://i.imgur.com/esVPxul.png" alt="materia from final fantasy"> on web -->
                 <img src="./img/warranty.png" alt="materia from final fantasy">
             </div>
-            <div>
+            <div class="textContainer">
                 <h3>Quality Assurance</h3>
                 <p>In each shipment we make sure that they arrive in good condition without interruptions or theft.</p>
             </div>
@@ -152,15 +156,17 @@
         </section>
 
         <!-- submit section -->
-        <p>Ready to order?</p>
-        <form action="https://www.freecodecamp.com/email-submit" id="form"></form>
-        <input type="email" id="email" placeholder="enter your email" required>
-        <input type="submit" id="submit" value="let's do it!">
+        <div class="formContainer">
+            <p>Ready to order?</p>
+            <form action="https://www.freecodecamp.com/email-submit" id="form"></form>
+            <input type="email" id="email" placeholder="enter your email" required="">
+            <input type="submit" id="submit" value="Let's do it!">
+    </div>
     </main>
     
     <!-- footer section -->
     <footer>
-        <span>The Princess of Treasures, Original Materias (no materia was stolen).</span>
+        <span>The Princess of Treasures, Original Materias <s>(no materia was stolen)</s>.</span>
         <!-- <img src="https://i.imgur.com/vMwyEzV.png" alt="chocobo logo">on web -->
         <img src="./img/copyright.png" alt="chocobo logo">
     </footer>
