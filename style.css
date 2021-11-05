@@ -293,7 +293,14 @@ footer span {
         font-size: 16px;
     }
     .rookie .type {
-        font-size: 15px;
+        font-size: 20px;
+    }
+    #pricing {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 20vw;
+        width: 150vw;
     }
     #pricing h2 {
         font-size: 14px;
